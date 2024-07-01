@@ -1,0 +1,45 @@
+.card-design:hover{
+    border: 1px solid #8470f3;
+    outline: #8470f3;
+    box-shadow: 0px 0px 10px #8470f3;
+}
+
+.dropdown2-box {
+    width: 150px !important;
+    box-shadow: unset !important;
+    color: white !important;
+    background-color: #5271FF !important;
+    text-align: center;
+}
+
+.dropdown2-box:focus {
+    border: 1px solid #5271FF !important;
+    outline: #5271FF !important;
+    box-shadow: 0px 0px 7px #5271FF !important;
+}
+
+.button-edit{
+    width: 100px;
+    color: white !important;
+    border: unset !important;
+    background-color: #7ED957 !important;
+}
+
+.button-edit:hover{
+    outline: #7ED957 !important;
+    box-shadow: 0px 0px 7px #7ED957 !important;
+    background-color: #7ED957 !important;
+}
+
+.button-delete{
+    width: 100px;
+    color: white !important;
+    border: unset !important;
+    background-color: #FF5757 !important;
+}
+
+.button-delete:hover{
+    outline: #FF5757 !important;
+    box-shadow: 0px 0px 7px #FF5757 !important;
+    background-color: #FF5757 !important;
+}

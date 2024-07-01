@@ -1,0 +1,13 @@
+.dropdown1-box {
+    width: 150px !important;
+    box-shadow: unset !important;
+    color: white !important;
+    background-color: #8470f3 !important;
+    text-align: center;
+}
+
+.dropdown1-box:focus {
+    border: 1px solid #8470f3 !important;
+    outline: #8470f3 !important;
+    box-shadow: 0px 0px 7px #8470f3 !important;
+}

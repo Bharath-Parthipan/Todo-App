@@ -1,0 +1,21 @@
+.inputbox{
+    width: 40% !important;
+    box-shadow: unset !important;
+}
+
+.inputbox:focus{
+    border: 1px solid  #8470f3 !important;
+    outline: #8470f3 !important;
+    box-shadow: 0px 0px 7px #8470f3 !important;
+}
+
+.button-style{
+    color: white !important;
+    border: unset !important;
+    background-color: #8470f3 !important;
+}
+.button-style:hover{
+    outline: #8470f3 !important;
+    box-shadow: 0px 0px 7px #8470f3 !important;
+    background-color: #7e8af6 !important;
+}
