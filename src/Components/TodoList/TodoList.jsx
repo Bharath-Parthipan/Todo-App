@@ -2,12 +2,12 @@ import { TodoItems } from "../TodoItems/TodoItems"
 import PropTypes from "prop-types";
 
 
-export const TodoList = ({ todos, updateTodo, deleteTodo }) => {
+export const TodoList = ({ todos, updateTodo, startEditingTodo, deleteTodo }) => {
   return (
-    <div className="d-flex flex-wrap align-items-center gap-2">
+    <div className="d-flex flex-wrap justify-content-around align-items-center row-gap-3 justify-content-md-start gap-sm-5 ">
       {todos.map((todo) => (
         <div key={todo.id}>
-          <TodoItems todo={todo} updateTodo={updateTodo} deleteTodo={deleteTodo}/>
+          <TodoItems todo={todo} updateTodo={updateTodo} startEditingTodo={startEditingTodo} deleteTodo={deleteTodo} />
         </div>
       ))}
     </div>
@@ -15,7 +15,8 @@ export const TodoList = ({ todos, updateTodo, deleteTodo }) => {
 };
 
 TodoList.propTypes = {
-  todos: PropTypes.arrayOf(),
+  todos: PropTypes.array,
   updateTodo: PropTypes.func.isRequired,
+  startEditingTodo: PropTypes.func.isRequired,
   deleteTodo: PropTypes.func.isRequired,
 };

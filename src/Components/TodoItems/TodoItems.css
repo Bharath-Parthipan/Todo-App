@@ -1,4 +1,8 @@
-.card-design:hover{
+.card-design {
+    width: 15rem;
+}
+
+.card-design:hover {
     border: 1px solid #8470f3;
     outline: #8470f3;
     box-shadow: 0px 0px 10px #8470f3;
@@ -18,28 +22,34 @@
     box-shadow: 0px 0px 7px #5271FF !important;
 }
 
-.button-edit{
+.button-edit {
     width: 100px;
     color: white !important;
     border: unset !important;
     background-color: #7ED957 !important;
 }
 
-.button-edit:hover{
+.button-edit:hover {
     outline: #7ED957 !important;
     box-shadow: 0px 0px 7px #7ED957 !important;
     background-color: #7ED957 !important;
 }
 
-.button-delete{
+.button-delete {
     width: 100px;
     color: white !important;
     border: unset !important;
     background-color: #FF5757 !important;
 }
 
-.button-delete:hover{
+.button-delete:hover {
     outline: #FF5757 !important;
     box-shadow: 0px 0px 7px #FF5757 !important;
     background-color: #FF5757 !important;
+}
+
+@media screen and (min-width: 400px) {
+    .card-design {
+        width: 22rem;
+    }
 }
