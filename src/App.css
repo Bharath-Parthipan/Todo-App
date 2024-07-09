@@ -43,3 +43,11 @@
 ::-webkit-scrollbar {
   display: none;
 } 
+
+.title {
+  color: white;
+}
+
+.color {
+  color: #5e27c9;
+}
